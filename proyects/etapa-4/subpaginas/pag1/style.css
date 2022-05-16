@@ -1,0 +1,161 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #222222;
+
+}
+
+/* Titulo */
+
+.titulo {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.titulo h1 {
+    background: #fff;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+
+
+/* Nav */
+
+.encabezado {
+    width: 100%;   
+}
+
+.contenedor-nav {
+    background: #222222;
+}
+
+.navbar-lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contendor-paginas {
+    display: inline-block;
+    padding: 15px;
+}
+
+.contendor-paginas:hover {
+    transition: all .1s ease-in;
+    background: #f07c29;
+    border-radius: 5px;
+}
+
+.paginas {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer y redes */
+
+.redes {
+    position: relative;
+}
+
+.redes__footer {
+    position: absolute;
+    background: #222222;
+    width: 100%;
+    height: 250px;
+}
+
+.redes__texto {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.redes__item {
+    display: inline;
+}
+
+.redes__lista{
+    text-align: center;
+}
+
+.redes__link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 40px;
+    margin: 10px 50px;
+}
+
+.redes__link:hover {
+    transition: all .1s ease-in;
+    color: #f07c29;
+    border-radius: 5px;
+}
+
+.redes__creditos {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+/* Formulario */
+.registro__img {
+    position: relative;
+    width: 100%;
+}
+
+
+.registro {
+    position: relative;
+    background: #222222;
+    width: 400px;
+    height: 350px;
+    margin: 200px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.registro__h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.textbox {
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn {
+    display: block;
+    box-shadow: none;
+    border: none;
+    width: 70px;
+    height: 30px;
+    background: #f07c29;
+    margin: 20px auto;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.resultado {
+    color: rgb(112, 255, 112);
+    text-align: center;
+}

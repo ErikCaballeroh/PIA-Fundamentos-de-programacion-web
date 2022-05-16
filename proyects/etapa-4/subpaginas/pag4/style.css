@@ -1,0 +1,120 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #222222;
+
+}
+
+/* Titulo */
+
+.titulo {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.titulo h1 {
+    background: #fff;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+
+
+/* Nav */
+
+.encabezado {
+    width: 100%;   
+}
+
+.contenedor-nav {
+    background: #222222;
+}
+
+.navbar-lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contendor-paginas {
+    display: inline-block;
+    padding: 15px;
+}
+
+.contendor-paginas:hover {
+    transition: all .1s ease-in;
+    background: #f07c29;
+    border-radius: 5px;
+}
+
+.paginas {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer y redes */
+
+.redes {
+    position: relative;
+}
+
+.redes__footer {
+    position: absolute;
+    background: #222222;
+    width: 100%;
+    height: 250px;
+}
+
+.redes__texto {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.redes__item {
+    display: inline;
+}
+
+.redes__lista{
+    text-align: center;
+}
+
+.redes__link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 40px;
+    margin: 10px 50px;
+}
+
+.redes__link:hover {
+    transition: all .1s ease-in;
+    color: #f07c29;
+    border-radius: 5px;
+}
+
+.redes__creditos {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+/*Codigo*/
+
+.cajita {
+    margin: 20px auto;
+    width: 700px;
+    height: 600px;
+    background: #fff;
+}

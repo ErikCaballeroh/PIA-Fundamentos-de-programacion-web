@@ -1,0 +1,136 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+/* colors */
+:root {
+    --primero: #27296d; 
+    --segundo: #5e63b6; 
+    --tercero: #a393eb; 
+    --cuarto: #f5c7f7; 
+    --blanco: #ffffff;
+    --default: #000000;
+    --lightTxt: #262626;
+    --true: #00cf42;
+}
+
+
+/* normalize */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* formulario */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(fondo.jpg);
+    background-position: 100%;
+}
+
+/* formulario box */
+.formulario {
+    background-color: var(--blanco);
+    width: 35%;
+    min-width: 650px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+.formulario__contenido {
+    padding: 20px;
+}
+
+/* img */
+.formulario__imagen {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* form tittle */
+.formulario__contenedortitulo {
+    text-align: center;
+}
+
+.formulario__titulo {
+    font-size: 35px;
+    color: var(--primero);
+}
+
+.formulario__subtitulo {
+    font-size: 15px;
+    color: var(--lightTxt);
+}
+
+/* form inputs */
+
+.formulario__centrar {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario__txt {
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid var(--primero);
+    transition: all .08s ease-out;
+}
+
+.formulario__txt:focus {
+    outline: none;
+    border-bottom: 2px solid var(--tercero);
+    font-size: 18px;
+    
+}
+
+.formulario__btn {
+    width: 60%;
+    height: 40px;
+    padding: 20px;
+    margin: 30px;
+    border: none;
+    background-color: var(--segundo);
+    border-radius: 3px;
+    color: var(--blanco);
+    padding: 10px auto;
+}
+
+/* select */
+.formulario__label {
+    display: block;
+    width: 100%;
+}
+    
+.formulario__select {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--primero);
+}
+
+.formulario__select:focus {
+    outline: 1px solid var(--segundo);
+}
+
+.select {
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+/* Resultado */
+.resultado {
+    padding: 60px;
+}
+
+.resultado p {
+    color: var(--segundo);
+    font-weight: bold;
+    line-height: 30px;
+}
